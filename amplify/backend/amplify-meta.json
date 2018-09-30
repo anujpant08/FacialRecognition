@@ -1,0 +1,26 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "acerec-20180907182152-authRole",
+			"UnauthRoleArn": "arn:aws:iam::481696469795:role/acerec-20180907182152-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::481696469795:role/acerec-20180907182152-authRole",
+			"Region": "ap-southeast-1",
+			"DeploymentBucketName": "acerec-20180907182152-deployment",
+			"UnauthRoleName": "acerec-20180907182152-unauthRole",
+			"StackName": "acerec-20180907182152",
+			"StackId": "arn:aws:cloudformation:ap-southeast-1:481696469795:stack/acerec-20180907182152/c4e64df0-b29c-11e8-af05-500c33716656"
+		}
+	},
+	"auth": {
+		"cognitocdbc2d0a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"fageo": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

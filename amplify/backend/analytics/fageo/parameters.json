@@ -1,0 +1,11 @@
+{
+    "appName": "fageo",
+    "roleName": "pinpointLambdaRole83c78307",
+    "cloudWatchPolicyName": "cloudWatchPolicy83c78307",
+    "pinpointPolicyName": "pinpointPolicy83c78307",
+    "authPolicyName": "pinpoint_amplify_83c78307",
+    "unauthPolicyName": "pinpoint_amplify_83c78307",
+    "authRoleName": "acerec-20180907182152-authRole",
+    "unauthRoleName": "acerec-20180907182152-unauthRole",
+    "IAMPrefix": "481696469795"
+}
